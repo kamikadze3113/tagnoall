@@ -1,4 +1,4 @@
-#by @kamikadze3113
+#Changed by @kamikadze3113
 from asyncio import sleep
 from .. import loader, utils
 
@@ -7,7 +7,7 @@ def register(cb):
 	
 class ЗаёбушкаMod(loader.Module):
 	"""Заебет любого"""
-	strings = {'name': 'Заёбушка'}
+	strings = {'name': 'Заеби'}
 	def __init__(self):
 		self.name = self.strings['name']
 		self._me = None
